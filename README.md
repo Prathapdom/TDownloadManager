@@ -98,3 +98,7 @@ powershell -ExecutionPolicy Bypass -File build.ps1 -SkipTests  # exe only
 ```
 
 or double-click `Build.cmd`. The tests use only local servers: an HTTP server with ranges, a SOCKS5 server standing in for Tor, and a second test process acting as a BitTorrent seeder. They need no internet connection.
+
+## License
+
+[MIT](LICENSE).
